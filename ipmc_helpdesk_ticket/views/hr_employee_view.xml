@@ -6,9 +6,15 @@
             <field name="model">hr.employee</field>
             <field name="inherit_id" ref="hr.view_employee_form"/>
             <field name="arch" type="xml">
+
+                <field name="certificate" position="after">
+                    <field name="certificate_id"/>
+                </field>
+
+
                 <!-- Find the employee_vacation_type field and make it readonly -->
                 <field name="employee_vacation_type" position="attributes">
-                    <attribute name="readonly">1</attribute>
+                    <attribute name="readonly">0</attribute>
                 </field>
 
             </field>
