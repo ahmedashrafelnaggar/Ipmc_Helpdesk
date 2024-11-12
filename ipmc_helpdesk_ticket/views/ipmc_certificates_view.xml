@@ -38,17 +38,6 @@
         </field>
     </record>
 
-    <!-- Top-Level Menu Item (if needed) -->
-    <menuitem id="menu_ipmc_root" name="IPMC Certificates" sequence="10"/>
-
-    <!-- Submenu for Certificates under the IPMC menu -->
-    <menuitem id="menu_ipmc_certificates"
-              name="Certificates"
-              parent="menu_ipmc_root"
-              action="action_ipmc_certificates"
-              sequence="10"/>
-
-
 </odoo>
 
 
